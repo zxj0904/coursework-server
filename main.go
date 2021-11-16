@@ -68,7 +68,7 @@ func main() {
 
 	go gol.Run(params, events, keyPresses)
 	if !(*noVis) {
-		sdl.Run(params, events, keyPresses)
+		//sdl.Run(params, events, keyPresses)
 	} else {
 		complete := false
 		for !complete {
